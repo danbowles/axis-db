@@ -373,13 +373,13 @@ header.top h1 {
 	letter-spacing: [$site_title_spacing]px;
 	line-height: $site_title_lh;
 	text-transform:$site_title_case;
+	margin-bottom: 0.3em;
 }
 
 .site_tagline {
 	text-transform:uppercase;
 	letter-spacing:2px;
-	font-size:13px;
-	font-weight: 600;
+	font-size:12px;
 	margin-bottom:1em;
 }
 
@@ -407,10 +407,12 @@ nav a:link,
 nav a:visited,
 nav a:active
 {
-	font-size: 1em;
+	font-size: 0.9em;
 	letter-spacing:1px;
 	text-transform:uppercase;
 	color:$nav_link_color;
+	font-weight: 600;
+	padding: 2px 8px;
 }
 
 nav a:hover,
@@ -419,7 +421,14 @@ a.nav_link:hover
 	color:$nav_link_hover_color;
 }
 
+nav ul.k-nav-list {
+	border: 3px double;
+	border-width: 3px 0;
+	padding: 13px;
+}
+
 nav a.k-nav-current {
+	border: 2px solid;
 	color:$current_color;
 }
 

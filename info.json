@@ -37,7 +37,7 @@
 				"header_color": "#000",
 				"link_color": "#000",
 				"link_hover_color": "#000",
-				"nav_link_color": "#808080",
+				"nav_link_color": "#000",
 				"nav_link_hover_color": "#000",
 				"current_color": "#000",
 				"input_border": "rgba(0,0,0,0.15)",
