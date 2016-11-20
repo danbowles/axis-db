@@ -28,6 +28,23 @@
 				"input_placeholder": "rgba(0,0,0,0.44)"
 			}
 		},
+		"white_2": {
+			"label": "White II",
+			"variables": {
+				"background_color": "#fff",
+				"title_color": "#000",
+				"body_color": "#000",
+				"header_color": "#000",
+				"link_color": "#000",
+				"link_hover_color": "#000",
+				"nav_link_color": "#808080",
+				"nav_link_hover_color": "#000",
+				"current_color": "#000",
+				"input_border": "rgba(0,0,0,0.15)",
+				"input_border_active": "rgba(0,0,0,0.3)",
+				"input_placeholder": "rgba(0,0,0,0.44)"
+			}
+		},
 		"black": {
 			"label": "Black",
 			"variables": {
@@ -55,6 +72,7 @@
 					"label": "Site title font",
 					"type": "select",
 					"options": [
+						{ "label": "Abril", "value": "abril" },
 						{ "label": "Arvo", "value": "arvo" },
 						{ "label": "Bitter", "value": "bitter" },
 						{ "label": "Helvetica Neue", "value": "helvetica" },
@@ -80,6 +98,7 @@
 						{ "label": "Merriweather Sans", "value": "merriweathersans" },
 						{ "label": "Noto Sans", "value": "notosans" },
 						{ "label": "PT Sans", "value": "ptsans" },
+						{ "label": "Raleway", "value": "raleway" },
 						{ "label": "Roboto", "value": "roboto" },
 						{ "label": "Source Sans Pro", "value": "sourcesanspro" }
 					],
@@ -260,7 +279,7 @@
 					"min": 11,
 					"max": 56,
 					"step": 1,
-					"value": 21,
+					"value": 29,
 					"suffix": "px",
 					"dependencies": {
 	                    "evaluate": "all",

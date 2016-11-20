@@ -107,10 +107,10 @@ em, i {
 }
 
 img.k-lazy-loading {
-	background-repeat:no-repeat;
-	background-position:center center;
-	background-size:16px 16px;
-	background-image: url(css/$style/spinner.gif);
+background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: 24px 24px;
+	background-image: url(css/$style/spinner.svg);
 }
 
 time {
@@ -364,7 +364,7 @@ textarea:-moz-placeholder
 */
 
 header.top {
-	margin:5em 0 1em;
+	margin: 2em 0 1em;
 }
 
 header.top h1 {
@@ -378,9 +378,9 @@ header.top h1 {
 .site_tagline {
 	text-transform:uppercase;
 	letter-spacing:2px;
-	color:inherit;
-	font-size:10px;
-	margin-bottom:1.5em;
+	font-size:13px;
+	font-weight: 600;
+	margin-bottom:1em;
 }
 
 /*
@@ -407,7 +407,7 @@ nav a:link,
 nav a:visited,
 nav a:active
 {
-	font-size:12px;
+	font-size: 1em;
 	letter-spacing:1px;
 	text-transform:uppercase;
 	color:$nav_link_color;
@@ -487,9 +487,8 @@ footer.bot {
 #ss_spinner {
 	background-repeat:no-repeat;
 	background-position:center center;
-	background-size:16px 16px;
-	background-image: url(css/$style/spinner.gif);
-	background-color:$background_color;
+	background-size:32px 32px;
+	background-image: url(css/$style/spinner.svg);
 	width:26px;
 	height:26px;
 	position:absolute;
