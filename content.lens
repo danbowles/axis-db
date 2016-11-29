@@ -19,23 +19,25 @@
 		</koken:not>
 	</koken:content_image>
 </koken:head>
-
+<koken:link>{{ album.title }}</koken:link>
 <ul id="nav-content">
 	<li>
 		<koken:previous>
 			<koken:link title="Previous" bind_to_key="left">&larr;&nbsp;Prev</koken:link>
 		<koken:else>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<span class="disabled">&larr;&nbsp;Prev</span>
 		</koken:previous>
 	</li>
 	<li>
-		<koken:link lightbox="true" title="Lightbox" bind_to_key="l">Lightbox</koken:link>
+	<koken:parent>
+		<koken:link title="{{ album.title }}">{{ album.title }}</koken:link>
+	</koken:parent>
 	</li>
 	<li>
 		<koken:next>
 			<koken:link title="Next" bind_to_key="right">Next&nbsp;&rarr;</koken:link>
 		<koken:else>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<span class="disabled">Next&nbsp;&rarr;</span>
 		</koken:next>
 	</li>
 </ul>
