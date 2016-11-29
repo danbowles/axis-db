@@ -579,10 +579,6 @@ ul#nav-content li span.disabled {
 	text-transform: uppercase;
 }
 
-ul#nav-content li:nth-child(2) {
-	display:$show_lightbox_link;
-}
-
 div#caption-content {
 	text-align:$caption_align;
 }

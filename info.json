@@ -545,17 +545,6 @@
 						]
 					}
 				},
-				"show_lightbox_link": {
-					"label": "Show lightbox link",
-					"type": "boolean",
-					"control_first": true,
-					"values": {
-						"true": "inline",
-						"false": "none"
-					},
-					"value": "inline",
-					"scope": [ "content" ]
-				},
 				"show_content_exif": {
 					"label": "Show EXIF",
 					"type": "boolean",
