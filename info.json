@@ -1,11 +1,11 @@
 {
-	"name": "Axis",
-	"version": "1.5.3",
-	"description": "Axis is a simple, elegant theme inspired by the presentation of fine art photography in galleries and photo books. Features loads of whitespace and minimal typography to help focus a viewer's complete attention on each and every image. Axis is the perfect theme for photographers who believe less is more when it comes to presenting their photography online.",
+	"name": "Axis - Danbowles.com",
+	"version": "1.0.0",
+	"description": "Danbowles.com",
 	"demo": "http://demo.koken.me/#axis",
 	"documentation": "https://store.koken.me/themes/axis",
 	"author": {
-		"name": "Koken",
+		"name": "Dan Bowles",
 		"link": "https://store.koken.me/authors/koken"
 	},
 	"koken_version_required": "0.18.0",
